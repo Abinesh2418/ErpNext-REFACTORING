@@ -1,8 +1,8 @@
-# ERPNext Accounts Module - Service Layer Refactoring
+# ERPNext Accounts Module - Refactoring
 
 ## 🎯 Project Overview
 
-This project demonstrates a **Service Layer Refactoring** of the ERPNext accounts module. The goal is to improve code organization, maintainability, and prepare the codebase for future modernization by extracting business logic into a dedicated service layer.
+This project demonstrates **refactoring of the ERPNext accounts module** by introducing a **Service Layer**. The goal is to improve code organization, maintainability, and prepare the codebase for future modernization by extracting business logic into a dedicated service layer.
 
 **Key Highlight**: ✅ **NO behavior changes** - All functionality works exactly as before!
 
@@ -29,40 +29,13 @@ This project demonstrates a **Service Layer Refactoring** of the ERPNext account
 
 ### Advantages Achieved
 
-#### 1. **Improved Code Organization & Maintainability**
-- Business logic separated into dedicated service class
-- Easier to find and modify specific functionality
-- Reduced development time
-
-#### 2. **Reduced Tight Coupling**
-- Service layer acts as intermediary between components
-- Changes in one area don't break others
-- Less debugging time required
-
-#### 3. **Better Testability**
-- Can test service methods independently
-- Faster unit tests without full framework setup
-- Catch bugs earlier in development
-
-#### 4. **Improved Scalability Preparation**
-- Foundation laid for microservices architecture
-- Can extract services independently in future
-- Ready for horizontal scaling
-
-#### 5. **Clearer API Boundaries**
-- Well-defined public methods in service class
-- Easier for developers to understand what's available
-- Reduced training time for new developers
-
-#### 6. **Enhanced Debugging & Monitoring**
-- Single entry point for GL processing logic
-- Easier to add logging and track errors
-- Faster incident resolution
-
-#### 7. **Better Documentation**
-- Comprehensive docstrings for all service methods
-- Self-documenting code structure
-- Less support overhead
+1. **Improved Code Organization & Maintainability** - Business logic separated into dedicated service class, easier to find and modify
+2. **Reduced Tight Coupling** - Service layer acts as intermediary, changes in one area don't break others
+3. **Better Testability** - Independent testing of service methods without full framework setup
+4. **Improved Scalability Preparation** - Foundation for microservices architecture and independent scaling
+5. **Clearer API Boundaries** - Well-defined public methods, easier for developers to understand
+6. **Enhanced Debugging & Monitoring** - Single entry point for logic, easier to add logging and track errors
+7. **Better Documentation** - Comprehensive docstrings and self-documenting code structure
 
 ### Future Ready
 
@@ -111,7 +84,7 @@ Erpnext-Refactoring/
 
 ```bash
 # 1. Navigate to project directory
-cd d:\Internships\PearlThoughts-Internship\Erpnext-Refactoring
+cd Project-Directory
 
 # 2. Create virtual environment
 python -m venv venv
@@ -142,14 +115,6 @@ SERVICE LAYER REFACTORING - TEST SUITE
 🎉 ALL TESTS PASSED!
 ```
 
-### Documentation
-
-- 📖 **[TESTING.md](TESTING.md)** - Detailed testing instructions
-- 💻 **[INSTALLATION.md](INSTALLATION.md)** - Full installation guide
-- 🪟 **[WINDOWS_SETUP.md](WINDOWS_SETUP.md)** - Windows-specific setup
-
----
-
 ## 📬 Contact
 
 For any queries or suggestions, feel free to reach out:
@@ -158,13 +123,3 @@ For any queries or suggestions, feel free to reach out:
 - 📧 **Email:** abineshbalasubramaniyam@gmail.com
 - 💼 **LinkedIn:** [linkedin.com/in/abiineshh](https://www.linkedin.com/in/abiineshh/)
 - 🐙 **GitHub:** [github.com/Abinesh2418](https://github.com/Abinesh2418)
-
----
-
-**License:** GNU General Public License v3
-
-**Version:** 1.0 (January 2026)
-
----
-
-⭐ **Star this project if you find it helpful!**
